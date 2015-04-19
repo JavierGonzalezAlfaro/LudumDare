@@ -22,19 +22,19 @@ public class Movement : MonoBehaviour {
 
         void rightMovement()
         {
-            transform.position = new Vector3(transform.position.x +0.5f,transform.position.y,transform.position.z);
+            transform.position = new Vector3(transform.position.x , transform.position.y, transform.position.z + 0.5f);
         }
         void leftMovement()
         {
-            transform.position = new Vector3(transform.position.x - 0.5f, transform.position.y, transform.position.z);
+            transform.position = new Vector3(transform.position.x , transform.position.y, transform.position.z - 0.5f);
         }
         void upMovement()
         {
-            transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z + 0.5f);
+            transform.position = new Vector3(transform.position.x - 0.5f, transform.position.y, transform.position.z);
         }
         void downMovement()
         {
-            transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z - 0.5f);
+            transform.position = new Vector3(transform.position.x + 0.5f, transform.position.y, transform.position.z);
         }
 
 }

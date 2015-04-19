@@ -2,12 +2,12 @@
 using System.Collections;
 
 public class Rotate : MonoBehaviour {
-	private bool rotateStronger = false;
+	public bool rotateStronger = false;
 
 	void Start(){
 		
 	}
-
+	
 	void Update () {
 		float rotationSpeed = -4f;
 		if (rotateStronger) {

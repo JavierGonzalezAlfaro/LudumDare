@@ -19,7 +19,7 @@ public class PlayerDetection : MonoBehaviour {
         {
             GetComponent<Exchange>().exchangePosition(other.gameObject);
         }
-        if (other.tag != "DangerPoint") Destroy(gameObject);
+        /*if (other.tag != "DangerPoint" && other.tag != "Slider") Destroy(gameObject);*/
     }
 
 }
