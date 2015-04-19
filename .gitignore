@@ -1,0 +1,5 @@
+*.info
+Library/metadata/
+Library/
+Temp/
+ProjectSettings/
