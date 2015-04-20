@@ -46,7 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\FireWallDestroyer.cs" />
+     <Compile Include="Assets\MainMenu.cs" />
      <Compile Include="Assets\Resources\Fire\ParticleSystemMultiplier.cs" />
      <Compile Include="Assets\Resources\Scripts\AIMovement.cs" />
      <Compile Include="Assets\Resources\Scripts\AIShoot.cs" />
@@ -54,13 +54,14 @@
      <Compile Include="Assets\Resources\Scripts\Movement.cs" />
      <Compile Include="Assets\Resources\Scripts\PlayerDetection.cs" />
      <Compile Include="Assets\Resources\Scripts\RotacionCanon.cs" />
+     <Compile Include="Assets\Resources\Scripts\Scripts\FanController.cs" />
+     <Compile Include="Assets\Resources\Scripts\Scripts\FireWallDestroyer.cs" />
+     <Compile Include="Assets\Resources\Scripts\Scripts\RailMovement.cs" />
+     <Compile Include="Assets\Resources\Scripts\Scripts\RailSticKSpawn.cs" />
+     <Compile Include="Assets\Resources\Scripts\Scripts\Rotate.cs" />
+     <Compile Include="Assets\Resources\Scripts\Scripts\Slider.cs" />
+     <Compile Include="Assets\Resources\Scripts\Scripts\TimeLifeDestroyer.cs" />
      <Compile Include="Assets\Resources\Scripts\Shoot.cs" />
-     <Compile Include="Assets\Scripts\FanController.cs" />
-     <Compile Include="Assets\Scripts\RailMovement.cs" />
-     <Compile Include="Assets\Scripts\RailSticKSpawn.cs" />
-     <Compile Include="Assets\Scripts\Rotate.cs" />
-     <Compile Include="Assets\Scripts\TimeLifeDestroyer.cs" />
-     <Compile Include="Assets\Slider.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
